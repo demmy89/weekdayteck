@@ -1,0 +1,57 @@
+.newdiv {
+  background-color: blue;
+  display: grid;
+  /* grid-template-columns: 1fr 1fr 1fr 1fr ;
+    grid-template-rows: 1fr 1fr ; */
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+}
+.div1 {
+  width: 20%;
+  background-color: aquamarine;
+}
+.div2 {
+  width: 20%;
+  background-color: beige;
+}
+.div3 {
+  width: 20%;
+  background-color: brown;
+}
+.div4 {
+  width: 20%;
+  background-color: black;
+}
+.div5 {
+  width: 20%;
+  background-color: goldenrod;
+}
+.div6 {
+  width: 20%;
+  background-color: yellowgreen;
+}
+.div7 {
+  width: 20%;
+  background-color: lightgreen;
+}
+.div8 {
+  width: 20%;
+  background-color: cornsilk;
+}
+.ffirst {
+  border: 3px solid;
+  padding: 4px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+}
+.child {
+  background-color: aqua;
+  border: 2px dashed;
+}
+.pos_div{
+  background-color: bisque;
+  width: 200px;
+  position: relative;
+  background-origin: l;
+}

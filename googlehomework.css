@@ -1,0 +1,206 @@
+@media screen and (min-width: 1200px) {
+  * {
+    margin: 5px;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  nav .nav-right {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    
+    
+  }
+  .house {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 20px;
+    max-width: 50%;
+    height: 300px;
+    display: grid;
+    grid-template-rows: repeat(2, 1fr);
+    grid-template-columns: repeat(5, 1fr);
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 2%;
+    /* margin-left: 22%; */
+  }
+  .grid-image {
+    width: 30%;
+    height: 30%;
+    border-radius: 50%;
+  }
+  .fr {
+    padding: 5px;
+  }
+
+  .fr1 .grid-image {
+    width: 40px;
+    height: 40px;
+  }
+  .fr10 .grid-image {
+    width: 40px;
+    height: 40px;
+  }
+  .fr2 .grid-image {
+    width: 40px;
+    height: 40px;
+  }
+  .fr7 .grid-image {
+    width: 40px;
+    height: 40px;
+  }
+  .googlebox {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 5rem;
+  }
+  .google {
+    width: 20%;
+    /* padding: 10px; */
+    /* padding-left: 500px; */
+  }
+  .box {
+    width: 600px;
+    /* height: 80px; */
+    border-radius: 50px;
+    padding: 15px;
+    border: none;
+    background: #fff;
+    box-shadow: -3px 2px 10px 2px rgba(0, 0, 0, 0.2);
+    outline: none;
+    padding-left: 40px !important;
+    /* text-align: center; */
+  }
+  .box::placeholder {
+    /* padding-left: 40px; */
+  }
+  .search-box {
+    position: relative;
+  }
+  .search-box .search-icon {
+    color: #ccc;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+  }
+  .search-box .record-icon {
+    color: blue;
+    position: absolute;
+    right: 10px;
+    top: 10px;
+  }
+  .underline{
+    text-decoration: none;
+  }
+}
+/* Desktop */
+@media screen and (min-width: 1025px) and (max-width: 1199px) {
+  * {
+    margin: 5px;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  nav .nav-right {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    
+  }
+  .house {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 20px;
+    max-width: 50%;
+    height: 300px;
+    display: grid;
+    grid-template-rows: repeat(2, 1fr);
+    grid-template-columns: repeat(5, 1fr);
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 2%;
+    background-color: orange;
+    /* margin-left: 22%; */
+  }
+  .grid-image {
+    width: 30%;
+    height: 30%;
+    border-radius: 50%;
+  }
+  .fr {
+    padding: 5px;
+  }
+
+  .fr1 .grid-image {
+    width: 40px;
+    height: 40px;
+  }
+  .fr10 .grid-image {
+    width: 40px;
+    height: 40px;
+  }
+  .fr2 .grid-image {
+    width: 40px;
+    height: 40px;
+  }
+  .fr7 .grid-image {
+    width: 40px;
+    height: 40px;
+  }
+  .googlebox {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 5rem;
+  }
+  .google {
+    width: 20%;
+    /* padding: 10px; */
+    /* padding-left: 500px; */
+  }
+  .box {
+    width: 600px;
+    /* height: 80px; */
+    border-radius: 50px;
+    padding: 15px;
+    border: none;
+    background: #fff;
+    box-shadow: -3px 2px 10px 2px rgba(0, 0, 0, 0.2);
+    outline: none;
+    padding-left: 40px !important;
+    /* text-align: center; */
+  }
+  .box::placeholder {
+    /* padding-left: 40px; */
+  }
+  .search-box {
+    position: relative;
+  }
+  .search-box .search-icon {
+    color: #ccc;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+  }
+  .search-box .record-icon {
+    color: blue;
+    position: absolute;
+    right: 10px;
+    top: 10px;
+  }
+} /* small laptop */
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+} /* tablet */
+@media screen and (min-width: 575px) and (max-width: 767.98px) {
+} /* tablet and large mobiles */
+@media screen and (min-width: 320px) and (max-width: 480px) {
+} /* Mobile*/

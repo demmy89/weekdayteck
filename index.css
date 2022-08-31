@@ -1,0 +1,44 @@
+/* p {
+    color: black
+} */
+
+h1 {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  border: red 2px dashed;
+  background-color: aquamarine;
+}
+
+tr {
+  color: red;
+}
+
+table {
+  background-color: yellow;
+}
+
+div {
+  text-align: center;
+  width: 20%;
+  margin-left: 50%;
+}
+.firstname {
+  color: red;
+}
+p {
+  color: aqua;
+}
+#pa {
+  color: blueviolet;
+}
+.great {
+  background-color: aquamarine;
+}
+.great.two {
+  border-radius: 20%;
+}
+.botton {
+}
+.para{
+  background-color: blue;
+  display: inline;
+}

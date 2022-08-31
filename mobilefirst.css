@@ -1,0 +1,42 @@
+/* mobile first */
+
+@media (min-width:320px)  {
+    body{
+        background-color: yellow;
+    }
+    .img{
+        width: 20%;
+    }
+    .img2, .img3{
+        width: 50%;
+    }
+    .div_2{
+        background-color: black;
+        display: block;
+    }
+}
+@media (min-width:480px)  {
+    body{
+        background-color: brown;
+    }
+}
+@media (min-width:600px)  {
+    body{
+        background-color: burlywood;
+    }
+}
+@media (min-width:801px)  {
+    body{
+        background-color: red;
+    }
+}
+@media (min-width:1025px) {
+    body{
+        background-color: blue;
+    }
+}
+@media (min-width:1281px) {
+    body{
+        background-color: aqua;
+    }
+}

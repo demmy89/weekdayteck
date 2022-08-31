@@ -1,0 +1,45 @@
+.all {
+  border-radius: 20px;
+  /* margin: 20px; */
+  padding: 50px;
+  margin-left:200px;
+  margin-right: 200px;
+}
+.head1 {
+  color: aquamarine;
+}
+.p1 {
+  color: olivedrab;
+}
+.box1 {
+  background-color: whitesmoke;
+  padding: 40px;
+}
+.box2 {
+    background-color: rgba(0, 255, 255, 0.822);
+    color: white;
+    padding: 40px;
+    width: 50%;
+    
+}
+.box3 {
+    background-color: rgba(0, 255, 255, 0.658);
+    color: white;
+    padding: 40px;
+    width: 50%;
+}
+.button {
+  background-color: rgba(172, 255, 47, 0.829);
+  color: white;
+  text-align: center;
+  padding: 10px;
+  width: 300px;
+  border-radius: 5px;
+  display: block;
+  border: none;
+  margin: 30px;
+}
+.house01{
+    display: flex;
+    
+}
